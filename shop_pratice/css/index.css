@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+#header{
+    background: url("../img/headerbg.png") repeat-x scroll 0 0 #ffffff;
+    height: 105px;
+}
+#header .contWidth{
+    position: relative;
+    height: 105px;
+    width: 990px;
+    margin: 0 auto;
+    z-index: 100;
+}
+#header .logo{
+    float: left;
+    margin: 0 0 0 10px;
+    color: #fff;
+    line-height: 80px;
+}
+#header .search{
+    left: 198px;
+    top: 20px;
+    position: absolute;
+}
+#skin{
+    float: right;
+    margin:10px;
+    padding: 4px;
+    width: 120px;
+}
+#skin li{
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: block;
+    cursor:pointer;
+    float: left;
+    text-indent:-9999px;
+    background-image: url("../img/theme.gif");
+}
+#skin_0{ background-position: 0px 0px; }
+#skin_1{ background-position: 15px 0px; }
+#skin_2{ background-position: 35px 0px; }
+#skin_3{ background-position: 55px 0px; }
+#skin_4{ background-position: 75px 0px; }
+#skin_5{ background-position: 95px 0px; }
+#skin_0.selected{  background-position: 0px 15px; }
+#skin_1.selected{  background-position: 15px 15px; }
+#skin_2.selected{  background-position: 35px 15px; }
+#skin_3.selected{  background-position: 55px 15px; }
+#skin_4.selected{  background-position: 75px 15px; }
+#skin_5.selected{  background-position: 95px 15px; }
+.mainNav{
+    position: absolute;
+    top: 68px;
+    left: 0;
+    height: 37px;
+    line-height: 37px;
+    width: 990px;
+    z-index: 100;
+    background-color: #4a4a4a;
+}
+.mainNav .nav{
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}
+
+.mainNav ul li{
+    float: left;
+    display: inline;
+    margin-right: 14px;
+    position: relative;
+    z-index: 100;
+}
+.mainNav ul li a{
+    display: block;
+    padding:0 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+.jnNav{
+    background:#ffffff;
+    border:1px solid #B1B1B1;
+    border-top:0;
+    overflow: hidden;
+    position: absolute;
+    top:37px;
+    left: 0;
+    width: 474px;
+    z-index: 1000;
+    display: none;
+}
+.jnNav .subitem{
+    float: left;
+    height: auto !important;
+    min-height: 100px;
+    padding: 10px 12px;
+    width: 450px;
+}
+.jnNav .subitem dl{
+    border-top:1px dashed #c4c4c4;
+    overflow:hidden;
+    padding: 8px 0;
+    float:left;
+}
+.jnNav .subitem dt{
+    float: left;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 4px 3px;
+    text-align: center;
+    width: 76px;
+}
+.jnNav .subitem dd{
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 364px;
+}
+#content{
+    clear: left;
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+.janeshop{
+    height: 560px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+#jnCatalog{
+    float: left;
+    height: 560px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+}
+#jnImageroll{
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+#jnNotice{
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 230px;
+}
+#jnBrand{
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 790px;
+}
+#jnCatalog h2{
+    height: 30px;
+    line-height:30px;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 13px;
+    background-color: #6e6e6e;
+}
+.jnCatainfo{
+    border: 1px solid #6e6e6e;
+    border-style: none solid solid ;
+    border-width: 0 1px 1px;
+    height: 524px;
+    overflow: hidden;
+    padding: 5px 10px 0;
+    width: 165px;
+}
+.jnCatainfo h3{
+    border-bottom: 1px solid #eeeeee;
+    height: 24px;
+    line-height: 24px;
+    width: 164px;
+}
+.jnCatainfo ul{
+    float: left;
+    padding: 0 2px 8px;
+}
+.jnCatainfo li{
+    color: #AEADAE;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 79px;
+    overflow: hidden;
+    position: relative;
+}
+.jnCatainfo li a{
+    color: #444444;
+}
+.jnCatainfo li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
+.jnCatainfo li a.promoted{
+    color: #f9044e;
+}
+.jnCatainfo li .hot{
+    background:url("../img/hot.gif") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    width: 21px;
+}
